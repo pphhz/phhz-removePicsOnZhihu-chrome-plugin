@@ -2,7 +2,7 @@
 	// 清单文件的版本，这个必须写，而且必须是2
 	"manifest_version": 2,
 	// 插件的名称
-	"name": "去掉CSDN博客页广告",
+	"name": "去掉知乎图片的插件",
 	// 插件的版本
 	"version": "1.0.0",
 	// 插件描述
@@ -40,7 +40,7 @@
 	"content_scripts": 
 	[
 		{
-			 "matches": ["https://www.zhihu.com/*"],
+			 "matches": ["https://www.zhihu.com/*", "https://zhuanlan.zhihu.com/*"],
 			// "<all_urls>" 表示匹配所有地址
 			//"matches": ["<all_urls>"],
 			// 多个JS按顺序注入
